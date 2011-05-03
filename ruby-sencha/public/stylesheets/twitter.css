@@ -1,0 +1,38 @@
+.timeline .tweet:first-child {
+  font-size: 152%;
+}
+
+.tweet {
+  width: 92%;
+  margin: 10px auto 0;
+}
+
+.tweet .tweet-content {
+  padding: 5px 5px 15px 5px;
+  background-color: #fff;
+  -webkit-border-radius: 0.4em;
+  border-radius: 0.4em;
+}
+
+.tweet .tweetarrow {
+  margin-top: -15px;
+  padding-right: 30px;
+  text-align: right;
+}
+
+.tweet .tweetarrow img {
+  width: 32px;
+  padding-top: 2px;
+}
+
+.tweet .avatar {
+  margin-top: -15px;
+  padding-right: 10px;
+  text-align: right;
+}
+
+.tweet .avatar img {
+  width: 32px;
+  padding-top: 2px;
+  border: thin solid #333;
+}

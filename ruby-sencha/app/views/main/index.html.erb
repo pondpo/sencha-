@@ -1,0 +1,31 @@
+<% content_for :script do %>
+  <script type="text/javascript">
+    var sign_in = <%= user_signed_in? %>;
+  </script>
+  <%= javascript_include_tag "sencha-touch" %>
+  <%= javascript_include_tag "app/registrations/new" %>
+  <%= javascript_include_tag "app/sessions/new" %>
+  <%= javascript_include_tag "app/meeting_panel" %>
+  <%= javascript_include_tag "app/bingo_panel" %>
+  <%= javascript_include_tag "app/twitter_panel" %>
+  <%= javascript_include_tag "app" %>
+<% end %>
+
+<script type="text/javascript">
+
+Ext.setup({
+  onReady: function() {
+    mainPanel = new Ext.Panel({
+      layout: 'card',
+      fullscreen: true,
+      cardSwitchAnimation: {
+        type: "slide",
+        direction: "left"
+      },
+      activeItem: 0,
+      items: [homePanel, signUpPanel, signInPanel, meetingPanel, bingoPanel, twitterPanel]
+    });
+  }
+});
+
+</script>

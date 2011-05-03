@@ -1,0 +1,194 @@
+
+
+Started GET "/" for 127.0.0.1 at Tue May 03 09:26:58 +0700 2011
+  Processing by MainController#index as HTML
+Rendered main/index.html.erb within layouts/application (34.1ms)
+Completed 200 OK in 83ms (Views: 82.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue May 03 10:07:08 +0700 2011
+  Processing by MainController#index as HTML
+Rendered main/index.html.erb within layouts/application (73.9ms)
+Completed 200 OK in 84ms (Views: 83.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue May 03 10:10:37 +0700 2011
+  Processing by MainController#index as HTML
+Rendered main/index.html.erb within layouts/application (16.7ms)
+Completed 200 OK in 33ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue May 03 10:15:22 +0700 2011
+  Processing by MainController#index as HTML
+Rendered main/index.html.erb within layouts/application (27.2ms)
+Completed 200 OK in 38ms (Views: 37.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/arrow.png" for 127.0.0.1 at Tue May 03 10:15:27 +0700 2011
+
+ActionController::RoutingError (No route matches "/arrow.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue May 03 10:15:59 +0700 2011
+  Processing by MainController#index as HTML
+Rendered main/index.html.erb within layouts/application (82.4ms)
+Completed 200 OK in 100ms (Views: 99.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/arrow.png" for 127.0.0.1 at Tue May 03 10:16:05 +0700 2011
+
+ActionController::RoutingError (No route matches "/arrow.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (10.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue May 03 10:17:08 +0700 2011
+  Processing by MainController#index as HTML
+Rendered main/index.html.erb within layouts/application (20.6ms)
+Completed 200 OK in 58ms (Views: 57.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/arrow.png" for 127.0.0.1 at Tue May 03 10:17:09 +0700 2011
+
+ActionController::RoutingError (No route matches "/arrow.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/arrow.png" for 127.0.0.1 at Tue May 03 10:17:12 +0700 2011
+
+ActionController::RoutingError (No route matches "/arrow.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (9.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue May 03 10:23:17 +0700 2011
+  Processing by MainController#index as HTML
+Rendered main/index.html.erb within layouts/application (117.3ms)
+Completed 200 OK in 368ms (Views: 324.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue May 03 10:24:12 +0700 2011
+  Processing by MainController#index as HTML
+Rendered main/index.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 34ms (Views: 32.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue May 03 10:24:46 +0700 2011
+  Processing by MainController#index as HTML
+Rendered main/index.html.erb within layouts/application (31.1ms)
+Completed 200 OK in 43ms (Views: 42.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue May 03 10:27:18 +0700 2011
+  Processing by MainController#index as HTML
+Rendered main/index.html.erb within layouts/application (52.8ms)
+Completed 200 OK in 87ms (Views: 86.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue May 03 10:27:43 +0700 2011
+  Processing by MainController#index as HTML
+Rendered main/index.html.erb within layouts/application (37.8ms)
+Completed 200 OK in 67ms (Views: 65.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue May 03 10:29:04 +0700 2011
+  Processing by MainController#index as HTML
+Rendered main/index.html.erb within layouts/application (269.7ms)
+Completed 200 OK in 321ms (Views: 320.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue May 03 10:29:38 +0700 2011
+  Processing by MainController#index as HTML
+Rendered main/index.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 26ms (Views: 25.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue May 03 10:30:41 +0700 2011
+  Processing by MainController#index as HTML
+Rendered main/index.html.erb within layouts/application (16.9ms)
+Completed 200 OK in 136ms (Views: 29.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue May 03 10:31:14 +0700 2011
+  Processing by MainController#index as HTML
+Rendered main/index.html.erb within layouts/application (38.0ms)
+Completed 200 OK in 71ms (Views: 70.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue May 03 10:31:39 +0700 2011
+  Processing by MainController#index as HTML
+Rendered main/index.html.erb within layouts/application (41.7ms)
+Completed 200 OK in 91ms (Views: 90.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue May 03 10:36:54 +0700 2011
+  Processing by MainController#index as HTML
+Rendered main/index.html.erb within layouts/application (47.9ms)
+Completed 200 OK in 101ms (Views: 87.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue May 03 10:38:36 +0700 2011
+  Processing by MainController#index as HTML
+Rendered main/index.html.erb within layouts/application (29.2ms)
+Completed 200 OK in 85ms (Views: 83.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue May 03 10:38:56 +0700 2011
+  Processing by MainController#index as HTML
+Rendered main/index.html.erb within layouts/application (26.9ms)
+Completed 200 OK in 47ms (Views: 44.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue May 03 10:39:10 +0700 2011
+  Processing by MainController#index as HTML
+Rendered main/index.html.erb within layouts/application (21.6ms)
+Completed 200 OK in 38ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue May 03 10:39:49 +0700 2011
+  Processing by MainController#index as HTML
+Rendered main/index.html.erb within layouts/application (146.4ms)
+Completed 200 OK in 154ms (Views: 153.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue May 03 10:40:02 +0700 2011
+  Processing by MainController#index as HTML
+Rendered main/index.html.erb within layouts/application (255.0ms)
+Completed 200 OK in 268ms (Views: 267.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue May 03 10:40:12 +0700 2011
+  Processing by MainController#index as HTML
+Rendered main/index.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 26ms (Views: 25.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue May 03 10:40:53 +0700 2011
+  Processing by MainController#index as HTML
+Rendered main/index.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 24ms (Views: 23.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue May 03 10:43:48 +0700 2011
+  Processing by MainController#index as HTML
+Rendered main/index.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 28ms (Views: 27.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue May 03 10:44:20 +0700 2011
+  Processing by MainController#index as HTML
+Rendered main/index.html.erb within layouts/application (18.1ms)
+Completed 200 OK in 28ms (Views: 27.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue May 03 10:44:52 +0700 2011
+  Processing by MainController#index as HTML
+Rendered main/index.html.erb within layouts/application (19.6ms)
+Completed 200 OK in 30ms (Views: 29.0ms | ActiveRecord: 0.0ms)

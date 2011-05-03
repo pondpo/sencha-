@@ -1,0 +1,39 @@
+.box {
+  float:left;
+  width: 24px;
+  height: 24px;
+  border: 1px solid #eee;
+  padding: 2px;
+}
+
+.check {
+  background-color: #abc;
+}
+
+.max_5 {
+  background-color: #f00;
+}
+
+.max_4 {
+  background-color: #f55;
+}
+
+.max_3 {
+  background-color: #888;
+}
+
+.max_2 {
+  background-color: #aaa;
+}
+
+.max_1 {
+  background-color: #eee;
+}
+
+.paper {
+  display: block;
+  width:120px;
+  height:120px;
+  margin: 20px 10px 20px 10px;
+  float: left;
+}

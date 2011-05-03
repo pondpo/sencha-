@@ -1,0 +1,29 @@
+<% content_for :script do %>
+  <script type="text/javascript">
+    var signIn = <%= admin_signed_in? %>;
+    var firstActiveItem = <%= (admin_signed_in?) ? 1 : 0 %>
+  </script>
+  <%= javascript_include_tag "sencha-touch" %>
+  <%= javascript_include_tag "admin/sessions/new" %>
+  <%= javascript_include_tag "admin/home_panel" %>
+  <%= javascript_include_tag "admin/users_panel" %>
+  <%= javascript_include_tag "admin" %>
+<% end %>
+
+<script type="text/javascript">
+
+Ext.setup({
+  onReady: function() {
+    mainPanel = new Ext.Panel({
+      layout: 'card',
+      fullscreen: true,
+      cardSwitchAnimation: {
+        type: "fade"
+      },
+      activeItem: firstActiveItem,
+      items: [signInPanel, adminPanel]
+    });
+  }
+});
+
+</script>

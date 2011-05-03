@@ -1,0 +1,10 @@
+~ content_for :script do
+    = stylesheet_link_tag "bingo"
+
+.new_number
+    = @new_number
+%br/
+= @old_number
+    
+#cards
+    = render :partial => "card", :collection => @cards    

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Seminar</title>
+  <%#= stylesheet_link_tag :all %>
+  <%= stylesheet_link_tag "sencha/css/sencha-touch" %>
+  <%= stylesheet_link_tag "twitter" %>
+  <%#= javascript_include_tag :defaults %>
+  <%= yield :script %>
+  <%= csrf_meta_tag %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>

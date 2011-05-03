@@ -1,0 +1,9 @@
+<p>Dear <%= @resource.name %></p>
+
+<p>กรุณากดลิงค์ด้านล่างเพื่อยืนยันการลงทะเบียน</p>
+
+<p>Please click link below for confirm registration.</p>
+
+<p><%= link_to 'ยืนยันการเข้าร่วมงาน / Please confirm registration', confirmation_url(@resource, :confirmation_token => @resource.confirmation_token) %></p>
+
+<p>ขอบคุณ / Thank you</p>

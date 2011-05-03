@@ -1,0 +1,5 @@
+~ content_for :script do
+    = stylesheet_link_tag "bingo"
+
+#cards
+    = render :partial => "card", :collection => @cards

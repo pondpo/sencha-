@@ -1,0 +1,5 @@
+.paper{:class => "max_#{card.max_connect}"}
+    - card.number_result_as_array.each do |n|
+        .box{:class => (n[:result] if n[:result] == "check")}
+            =n[:number]
+    = card.id
